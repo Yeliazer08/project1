@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 29px;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items ul li {
+  margin-left: 30px;
+  margin-right: 25px;
+}
+
+.nav-items ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  
+}
+
+.nav-items ul li a:hover {
+  text-decoration: underline;
+}
+
+.language-selector {
+  margin-left: 30px;
+  margin-right: 100px;
+}
+
+.language-selector select {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+  background: #fff;
+  color: #333;
+}
+
+ /*Background Image Styling */
+.background-image {
+  position: relative;
+  position: fixed;
+  top:0;
+  
+}
+
+.background-image img {
+  width: 115%;
+  height: 120vh;
+  display: block;
+  object-fit: cover;
+}
+
+/* Login Form Styling */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  position: relative;
+  z-index: 1;
+  position: absolute;
+  position:fixed;
+  top:90;
+  left:475;
+}
+
+.login-form {
+  background: #d6e0c2;
+  padding: 20px;
+  border-radius: 9px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+  max-width: 100%;
+  
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+
+
+}
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.login-form button:hover {
+  background-color: #555;
+}
+
+.forgot-password {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #333;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.signup-link a {
+  color: #333;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
