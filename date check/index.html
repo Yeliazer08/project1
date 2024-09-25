@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <div>
+    <h1>
+      vote Eligibility
+    </h1>
+    <input type="date" id ="dob">
+    <button id ="check">check Eligibility</button>
+    <p id="msg"></p>
+
+    <script>
+      const selectdate = document.getElementById("dob");
+      const click=document.getElementById("check");
+      click.addEventListener('click',function(){
+        const date = selectdate.value;
+        const message = document.getElementById('msg');
+        if(date === ""){
+        message.innerHTML="please select date";
+        }else{
+          message.innerHTML=" ";
+
+        }
+      })
+
+    </script>
+
+
+
+  </div>
+  
+</body>
+</html>
