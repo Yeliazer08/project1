@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -6,99 +7,14 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #14a6e0;
 }
-
-/* Navbar Styling */
-.navbar {
-  background-color: #333;
-  color: #fff;
-  padding: 15px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.logo {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
-  font-size: 29px;
-  font-weight: bold;
-  margin-left: 35px;
-}
-
-.nav-items {
-  display: flex;
-  align-items: center;
-}
-
-.nav-items ul {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-items ul li {
-  margin-left: 30px;
-  margin-right: 25px;
-}
-
-.nav-items ul li a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  color: #fff;
-  
-}
-
-.nav-items ul li a:hover {
-  text-decoration: underline;
-}
-
-.language-selector {
-  margin-left: 30px;
-  margin-right: 100px;
-}
-
-.language-selector select {
-  padding: 5px;
-  border: none;
-  border-radius: 4px;
-  background: #fff;
-  color: #333;
-}
-
- /*Background Image Styling */
-.background-image {
-  position: relative;
-  position:fixed;
-  top:0;
-  
-}
-
-.background-image img {
-  width: 115%;
-  height: 120vh;
-  display: block;
-  object-fit: cover;
-}
-
-/* Login Form Styling */
 .login-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80vh;
-  position: relative;
-  z-index: 1;
-  position: absolute;
-  position:fixed;
+  margin-left:350px
   top:90;
   left:475;
 }

@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <h2>
-        Registration Form
-    </h2>
+   
     <div class="container">
         <div class="sidebar">
             <ul>
@@ -53,7 +51,46 @@
 
                 <button type="submit">Submit</button>
             </form>
-        </div>
+            <div class="form-container">
+                <h1>
+                    Family Details
+                </h1>
+                <form>
+                    <label for="fname">Father Name:</label>
+                    <input type="text" id="fname" name="Father Name" size="35">
+    
+                    <label for="Mname"> Mother Name:</label>
+                    <input type="text" id="Mname" name="Mother Name" required>
+    
+                    <label for="BroName">Brother Name:</label>
+                    <input type="text" id="Broname" name="Bro1name" required>
+
+                    <label for="sisName">sister Name:</label>
+                    <input type="text" id="sisname" name="sistername" required>
+                    
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="form-container">
+                <h1>
+                    Department Details
+                </h1>
+                <form>
+                    <label for="DepartmentId">DepartmentId:</label>
+                    <input type="text" id="DepartmentId" name="DepartmentId" required size="100">
+                    <label for="Department">Department Name:</label>
+                    <input type="text" id="Department" name="Department name" required>
+                    <label for="Deploc">Department location:</label>
+                    <input type="text" id="Deploc" name="Department location" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+
+            </div>
+
+            
+        </div>    
     </div>
 </body>
 </html>
